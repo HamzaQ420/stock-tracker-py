@@ -1,0 +1,10 @@
+#! /bin/bash
+
+cd ~/Desktop/Programming/Python/Stock
+
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install yfinance
+python3 -m pip install Tk interface
+
+python3 main.py
